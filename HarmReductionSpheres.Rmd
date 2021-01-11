@@ -1,0 +1,103 @@
+---
+title: "Spheres of Harm Reduction"
+author: "Kendra Blalock"
+date: "1/10/2021"
+output: html_document
+---
+
+### About Harm Reduction
+
+Harm reduction approaches focus on providing information to patients, clients, and/or community members on different approaches they can take to lower harmful consequences of behaviors. For example, not using heroin is less harmful than using it; however, if individuals are using heroin, it is less harmful to smoke it instead of injecting it. If individuals are injecting, it is less harmful if individuals inject with brand new injection equipment each time they inject. Traditionally associated with drug use, a harm reduction approach can be applied to a wide range of situations.
+
+Additional information about harm reduction can be found here: 
+<https://en.wikipedia.org/wiki/Harm_reduction>, 
+<https://harmreduction.org/>, and
+<https://www.hri.global/what-is-harm-reduction>.
+
+### Project Overview
+Harm reduction researchers and program staff work hard to implement and evaluate approaches that benefit both individuals and public health at large. To overcome challenges, they often focus and publish on a narrow set of issues. This allows them the ability to be more exact and confident about the effects of specific approaches. However, due to these narrowed focuses, there may be missed opportunities for collaboration. This may be particularly true when dealing with very complex social issues. Individuals do not often have just one life issue they are being affected by, rather they are dealing with many interrelated problems.  
+
+My goal was to develop a bibliometric network map which could illuminate spheres of harm reduction work. The network map gives a sense of which groups of terms are frequently present in harm reduction papers by clustering various groups of terms with different colors. Individual terms which are often seen together are shown with links between the words. Finally, the size of a word’s circle gives a sense of the frequency with which the word appeared in the sample.   
+
+### Data Used
+
+I downloaded pubmed bibliographic data for all publications using the term "harm reduction". The data was pulled on 1/6/2021 and there were 7,126 results. 
+
+### Software Used
+
+I used VOSviewer to put together a bibliometric network visualization of terms related to harm reduction. VOSviewer is free software which can be downloaded here <https://www.vosviewer.com/>. Additional information about bibliometrics can be found here <https://en.wikipedia.org/wiki/Bibliometrics>.  
+
+### The Specs
+
+The map was created based on text, with both title and abstract fields included. Using binary counting, 95,112 terms were identified and taken down to 1,975 items once the threshold of 20 occurrences was applied. 
+
+
+### Full map
+
+Five distinct clusters of terms regarding harm reduction research and programs were identified.
+
+![](Harm Reduction\Full_Network.png)
+
+### Pink Cluster - Sex and Injection Drug Use
+
+The largest cluster of the plot covers terms related to both sex and injection drug use with many interconnections. Examples of relevant terms include anal sex, consistent condom use, drug user, HCV, HIV, injecting, MSM (men who have sex with men), needle, prevalence, PWID (person who injects drugs), sex, syphilis, and syringe. 
+
+The interrelationship of these two topics is notable. When reviewing titles and abstracts of harm reduction related publications, these two topics are so enmeshed that the cluster displays them as if they were one topic. It reflects the complex nature of these public health issues.   
+
+![](Harm Reduction\Sex_and_IDU2.png)
+
+
+### Purple Cluster - Opioids
+
+Directly off of the sex and injection drug use cluster is a smaller cluster focused on opioids. Examples of relevant terms include fentanyl, naloxone, opioid, overdose, pill, and use disorder.
+
+It is interesting that a separate opioid cluster would form off of the injection drug use cluster given the strong tie between the two. It may speak to the particular focus paid to opioid use disorder recently with the declared opioid crisis and increase in available funding for related programs and research projects.  
+
+![](Harm Reduction\Opiods2.png)
+
+
+### Blue Cluster - Alcohol
+
+This cluster shows terms related to alcohol including alcohol use, college students, drinking, risky drinking, university, and young adult. 
+
+It is interesting that publications related to harm reduction and alcohol tend to be paired with the university and young adult populations when alcohol use disorder and problematic drinking behaviors affect all age groups. It is sensible that many programs and research focus on younger individuals with the aim to mitigate issues that may grow more serious with time. However, I do also wonder if the connection is compounded by the ease by which college students can be recruited into university connected studies. It is also interesting how numerous psychological terms are clustered with alcohol and college students, even though they would apply to the other clusters as well. These terms include anxiety disorder, character inventory, protective behavioral strategy, schizophrenia, and temperament.
+
+
+![](Harm Reduction\Alcohol2.png)
+
+### Yellow Cluster - Smoking
+The bottom right cluster focuses on smoking with terms of interest including carbon monoxide,
+cigarette smoker, cigarette, e-cigarette, exposure, smoker, smoking, tobacco control, and tobacco product. 
+
+
+![](Harm Reduction\Smoking2.png)
+
+### Green - Academic Terminology
+The last cluster spans a little wider than the other clusters and shows very minimal connections within the cluster or to other clusters. Terms vary, but many are more focused on the academic side of publications. These include cost effectiveness, debate, discrimination, document, drug policy, field, human rights, legislation, reduction measure, and regulation.
+
+![](Harm Reduction\Academic2.png)
+
+### Locations Mentioned
+
+Sprinkled in the clusters are names of cities, countries, and regions frequently linked with the cluster topics. The mention of these locations may give insight as to which locations have been well funded for harm reduction programs and research, or which areas are of particular interest to researchers due to unique local conditions.  
+
+#### Pink Cluster - Sex and Injection Drug Use
+Afghanistan, Africa, Amsterdam, Asia, Bangkok, Bangladesh, Barcelona, Cambodia, Canadian city, Catalonia, Central Asia, China, Eastern Europe, Estonia, Georgia, Glasgow, Hanoi, Indonesia, Iran, Kazakhstan, Latin America, Lebanon, Madrid, Malaysia, Middle East, Montreal, Myanmar, Nepal, North Africa, pacific, Pakistan, Paris, Petersburg, Puerto Rico, Russia, Russian city, Russian Federation, San Francisco, Southeast Asia, Spain, Sub-Saharan Africa, Taiwan, Tehran, Thailand, Ukraine, and Vietnam.
+
+#### Purple Cluster - Opioids
+Baltimore, Baltimore city, Boston, Columbia, Dublin, Maryland, Massachusetts, New York, New York City, North Carolina, NYC, Ohio, Philadelphia, Rhode Island, and West Virginia.
+
+
+#### Blue Cluster - Alcohol
+None
+
+#### Yellow Cluster - Smoking
+Italy, Japan, Norway, Sweden
+
+#### Green - Academic Terminology
+Argentina, Australian government, Belgium, British Columbia, Canadian, Chicago, Kenya, Mexico, Nairobi, Ottawa, Tanzania, Tijuana, Uruguay, Vancouver, and Western Australia.   
+
+### Gender/Sex Considerations 
+One final item of note is the cluster location for terms related to sex and gender. Most terms fell in the pink cluster (sex and injection drug use). These include bisexual man, female gender, female sex worker, female sex, gay man, HIV positive man, male gender, male IDU, male partner, men, transgender women, and young woman. 
+
+The was only one exception; the term "female" was placed in the blue cluster (alcohol). Although the term appears to straddle the pink and blue clusters, it is interesting that publications on harm reduction and alcohol utilize the term “female” disproportionately enough to pull it out of the sex and injection drug use cluster.  
